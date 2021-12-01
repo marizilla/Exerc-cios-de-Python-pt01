@@ -1,4 +1,4 @@
-# Exercicios-de-Python-pt01
+# Exercicios-de-Python
 Exercícios do curso de Python da plataforma Curso em Vídeo <br>
 Aqui estão os 13 primeiros exercícios básicos do curso de Python do professor Gustavo Guanabara. São probleminhas simples mas muito interessantes no tocante à prática da linguagem Python <br>
 ex001 - Olá Mundo <br>
