@@ -1,0 +1,8 @@
+print('========== DESCUBRA QUANTOS LITROS DE TINTA VOCÊ PRECISA ==========')
+altura = float(input('→ INFORME A ALTURA DA PAREDE (M): '))
+largura = float(input('→ AGORA INFORME A LARGURA DA PAREDE (M): '))
+area = float(altura * largura)
+print('______________________________________________________')
+print('A ÁREA DA PAREDE É DE {} METROS QUADRADOS'.format(area))
+print ('SERÃO NECESSÁRIOS {} LITROS DE TINTA PARA PINTÁ-LA'.format(area * 2))
+print('______________________________________________________')

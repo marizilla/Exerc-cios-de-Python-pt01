@@ -1,0 +1,5 @@
+print('========== CONVERSOR DE MOEDAS ==========')
+x = float(input('INFORME O VALOR A SER CONVERTIDO: R$'))
+print('______________________________________________')
+convert = round(x / 5.61)
+print('DÓLARES → U${}'.format(convert))

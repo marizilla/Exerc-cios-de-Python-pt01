@@ -1,0 +1,5 @@
+print('========== REAJUSTE SALARIAL ANUAL ==========')
+nome = input('INFORME O NOME DO(A) FUNCIONÁRIO(A): ')
+salario = float(input('INFORME O SALÁRIO ATUAL DO(A) FUNCIONÁRIO(A) {}: R$'.format(nome)))
+reajuste = salario + (salario * 15/100)
+print('APÓS O REAJUSTE DE 15%, {} PASSARÁ A GANHAR R${:.2f}'.format(nome, reajuste))

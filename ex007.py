@@ -1,0 +1,8 @@
+print('========== CALCULE A SUA MÉDIA SEMESTRAL ==========')
+nome = input('INFORME O SEU NOME: ')
+per = input('INFORME O PERÍODO EM QUE VOCÊ ESTÁ: ')
+print('Olá {}, do {}º período. Informe a baixo as notas das duas disciplinas cursadas:'.format(nome, per))
+nota1 = float(input('NOTA 1 → '))
+nota2 = float(input('NOTA 2 → '))
+media = float((nota1 + nota2) / 2)
+print('Sua média final foi de {}'.format(media))

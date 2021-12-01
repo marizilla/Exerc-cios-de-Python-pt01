@@ -1,0 +1,5 @@
+print('========== CONVERSOR DE MEDIDAS ==========')
+m = float(input('INFORME A MEDIDA EM METROS: '))
+cm = float(m * 100)
+mm = float(m * 1000)
+print('{} METROS → EM CENTÍMETROS = {} | EM MILÍMETROS = {}'.format(m, cm, mm))
